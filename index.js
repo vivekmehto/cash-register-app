@@ -16,7 +16,7 @@ nextButton.addEventListener("click", function validateBill() {
   if (billAmount.value > 0) {
     cashDiv.style.display = "block";
   } else {
-    showMessage("Invalid Bill Amount");
+    showMessage("Bill Amount should be greater than 0");
   }
 });
 
@@ -28,7 +28,7 @@ checkButton.addEventListener("click", function validateCash() {
     noteTable.style.display = "block";
   } else {
     noteTable.style.display = "none";
-    showMessage("cash should be more than bill amount");
+    showMessage("Cash should be more than bill amount");
   }
 });
 
