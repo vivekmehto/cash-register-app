@@ -24,8 +24,6 @@ checkButton.addEventListener("click", function validateCash() {
   message.style.display = "none";
   if (cashGiven.value > billAmount.value) {
     const amountReturn = cashGiven.value - billAmount.value;
-    console.log(cashGiven.value);
-    console.log(billAmount.value);
     calculateChange(amountReturn);
     noteTable.style.display = "block";
   } else {

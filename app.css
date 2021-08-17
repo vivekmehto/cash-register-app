@@ -1,7 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   width: 50vw;
   margin: auto;
+  padding: 2%;
+  background-color: #edf6e5;
+}
+
+.heading {
   text-align: center;
+  margin: 2%;
+  padding: 3%;
+}
+
+.description {
+  margin: 2%;
+  padding: 2%;
+}
+
+label {
+  font-size: large;
+}
+
+button {
+  background-color: #2c2e43;
+  margin: 1% 0;
+  padding: 1%;
+  width: 10%;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+#bill-amount {
+  margin: 1% 0;
+  padding: 1%;
+  background-color: #595260;
+  color: white;
+}
+
+#cash-div {
+  margin: 2% 0;
+}
+
+#cash-given {
+  margin: 1% 0;
+  padding: 1%;
+  width: 100%;
+  display: block;
+  background-color: #595260;
+  color: white;
+}
+
+#error-message {
+  margin: 1% 0;
+  padding: 2% 0;
+  font-size: larger;
+  color: #df2e2e;
+  text-align: center;
+  font-weight: bold;
+}
+
+#note-table {
+  text-align: justify;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: larger;
+  font-weight: bolder;
+  margin: 1%;
+}
+
+th,
+td {
+  border: 2px solid #ff7600;
+  padding: 1.2rem;
+  border-collapse: collapse;
 }
