@@ -67,8 +67,7 @@ button {
 }
 
 #note-table {
-  text-align: justify;
-  margin: auto;
+  margin-left: 35%;
   border-collapse: collapse;
 }
 
@@ -135,14 +134,17 @@ td {
     width: 90%;
   }
 
+  #note-table {
+    margin: 0 auto;
+  }
+
   input {
     width: 60%;
   }
-  #calculate-area,
-  #submit-answer-btn,
-  #calculate-btn,
+
+  #next-btn,
   #check-btn {
-    width: 80%;
+    width: 50%;
   }
   .footer {
     left: 5%;
